@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="My Web Coding Portfolio">
-    <link rel="stylesheet" type="text/css" href="portfolio.css">
-  
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="My Web Coding Portfolio">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
 </head>
 
-
-<div class="myinfo text">
-
-  <!--Header!-->
-  <!---Header needs style-->
-  <header class="header">Art Aragon</header>
-
-  <!--Nav for portfolio-->
-  <!--will need a class and IDs-->
-  <ul id="nav">
-    <li>
-      <a  href="index.html">About me</a>
-    </li>
-    <li>
-      <a href="portfolio.html">Portfolio</a>
-    </li>
-    <li>
-      <a  href="contact.html">contact</a>
-    </li>
-  </ul>
-</div>
+<body>
   
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Art Aragon</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-      <!--main info/about me-->
-      <div>
-        <h1>About me</h1>
 
-        <article>
-        <p> Hi! My name is Art Aragon, I'm 31 years old and I'm a Future Full Stack Developer. I like digital and analog photography,
-            Music, Coffee, working out, reading all sorts of books, writing, and playing musical instruments.
-        </p>
-        <p>Over the last 3 years, I've visited 15 countries in 3 continents and I don't plan on stoping. 
-            I play guitar and bass guitar in a couple of bands,I love animals, my favorite being the Kodiak Bear. I've been to a few places in 
-            Croatia where they filmed Game of thrones. 
-        </p>
-      <img id="mestyle" src="assets/images/02jma8r.jpg" alt="derp face">
 
-        </article>
-      </div>
-      </div>
-    </body>
-<footer class="footer1">
-          <p><small><i>Copyright &copy;</i></small></p>
-            <p>Art Aragon 2019</p>
-            <dive class="footer2">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="index.html">Index</a>
+          <a class="dropdown-item" href="portfolio.html">Portfolioo</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="contact.html">Contact</a>
+        </div>
+      </li>
+     
+    </ul>
+   
+  </div>
+</nav>
 
-            </dive>
-</footer>
-      </html>
+<div class="media">
+  <img src="/assets/images/02jma8r.jpg" class="img-fluid" alt="Responsive image">
+  <div class="media-body">
+    <h5 class="mt-0">Media heading</h5>
+    <p> Hi! My name is Art Aragon, I'm 31 years old and I'm a Future Full Stack Developer. I like digital and analog photography,
+      Music, Coffee, working out, reading all sorts of books, writing, and playing musical instruments.
+  </p>
+  <p>Over the last 3 years, I've visited 15 countries in 3 continents and I don't plan on stoping. 
+      I play guitar and bass guitar in a couple of bands,I love animals, my favorite being the Kodiak Bear. I've been to a few places in 
+      Croatia where they filmed Game of thrones. 
+  </p>
+  </div>
+</div>
+
+
+</body>
+
+</html>

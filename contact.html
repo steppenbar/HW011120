@@ -7,30 +7,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="My Web Coding Portfolio" <title>
   </title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Art Aragon</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" id="logo" class="brand-logo">Art Aragon</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -42,18 +36,18 @@
         <form>
           <div class="form-group">
             <label for="formGroupExampleInput" class="ctext">Name</label>
-            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Full name">
+            <input type="text" class="form-control"  id="forms" placeholder="Full name">
           </div>
 
           <div class="form-group">
             <label for="exampleFormControlInput1" class="ctext">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <input type="email" class="form-control"  id="forms" placeholder="name@example.com">
           </div>
 
 
           <div class="form-group">
             <label for="exampleFormControlTextarea1" class="ctext">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <textarea class="form-control"  id="forms2" rows="3"></textarea>
           </div>
         </form>
         <button type="submit" class="btn btn-primary">Submit</button>
@@ -61,11 +55,19 @@
       <div class="col-sm-3"></div>
     </div>
 
-    <footer>
-      <p><small><i>Copyright &copy;</i></small></p>
-      <p>Art Aragon 2019</p>
-    </footer>
-
+    <div class="fixed-bottom bg-primary">
+      <footer>
+      
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Art Aragon 
+         
+  
+        
+          </div>
+        </div>
+      </footer>
+    </div>
 
 </body>
 

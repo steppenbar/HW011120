@@ -9,52 +9,45 @@
   <meta name="Description" content="My Web Coding Portfolio">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+            
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 </head>
 
 <body>
-  <div id="box">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Art Aragon</a>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+ 
 
 
+      <nav>
+        <div class="nav-wrapper">
+          <a href="index.html" id="logo" class="brand-logo">Art Aragon</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-      </div>
-      </li>
-
-      </ul>
-  </div>
-  </div>
-  </nav>
+      
+    
 
   <<div class="container">
 
     <div class="row">
       <div class="col-sm-6">
         <div>
-          <img src="/assets/images/02jma8r.jpg" class="img-fluid" alt="Responsive image">
+          <img src="/assets/images/02jma8r.jpg" class="img-fluid"  id="picSize"  alt="Responsive image">
         </div>
       </div>
       <div class="col-sm-6">
+        <div class="boxed">
         <div>
           <h5 class="mt-0" >About me:</h5>
           <p class="pee"> Hi! My name is Art Aragon, I'm 31 years old and I'm a Future Full Stack Developer. I like
@@ -66,14 +59,26 @@
             been to a few places in
             Croatia where they filmed Game of thrones.
           </p>
+          </div>
         </div>
       </div>
     </div>
 
+    
+
+    <div class="fixed-bottom bg-primary">
     <footer>
-      <p><small><i>Copyright &copy;</i></small></p>
-      <p>Art Aragon 2019</p>
+    
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright Art Aragon 
+       
+
+      
+        </div>
+      </div>
     </footer>
+  </div>
 
 </body>
 

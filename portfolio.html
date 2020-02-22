@@ -7,30 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="Description" content="My Web Coding Portfolio" <title>
   </title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Art Aragon</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Index <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
+  <nav>
+    <div class="nav-wrapper">
+      <a href="index.html" id="logo" class="brand-logo">Art Aragon</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -46,19 +42,19 @@
         <section>
 
 
-          <img class="portitem img-thumbnail" src="assets/images/cyberdyne.jpg" alt="Cybernetics">
+          <img class="portitem img-thumbnail" src="./assets/images/project1.png" alt="translator">
 
 
-          <img class="portitem img-thumbnail" src="assets/images/allsafe-mr-robot-t-shirt.jpg"
-            alt="Allsafe Cyber Security!">
+          <img class="portitem img-thumbnail" src="./assets/images/cis152.png"
+            alt="firstcss">
 
 
-          <img class="portitem img-thumbnail" src="assets/images/ECorp.png" alt="Banking solutions">
+          <img class="portitem img-thumbnail" src="./assets/images/pass.png" alt="randompass">
 
 
-          <img class="portitem img-thumbnail" src="assets/images/OCP.jpg" alt="Omni Consumer Products">
+          <img class="portitem img-thumbnail" src="assets/images/cyberdyne.jpg" alt="cybersecurity">
 
-          <img class="portitem img-thumbnail" src="assets/images/encom.png" alt="Software Solutions">
+          <img class="portitem img-thumbnail" src="assets/images/weyland.png" alt="building better worlds">
 
         </section>
       </div>
@@ -66,10 +62,19 @@
   </div>
   </div>
 
-  <footer>
-    <p><small><i>Copyright &copy;</i></small></p>
-    <p>Art Aragon 2019</p>
-  </footer>
+  <div class="fixed-bottom bg-primary">
+    <footer>
+    
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright Art Aragon 
+       
+
+      
+        </div>
+      </div>
+    </footer>
+  </div>
 
 </body>
 
